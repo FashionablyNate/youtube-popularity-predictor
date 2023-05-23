@@ -18,22 +18,14 @@ This is a machine learning project aimed at predicting the popularity of YouTube
 
 ## How to Use
 
-Please refer to the script comments and the `crawl_channel()` function to understand how to input a YouTube channel ID and start the data collection and model training process. The script requires a valid YouTube API Key and Discord Webhook URL to function.
+Please refer to the script comments and the `crawl_channel()` function to understand how to input a YouTube channel ID and start the data collection and model training process. The script requires a valid YouTube API Key and Discord Webhook URL to function. The Discord Webhook is used to get updates on model training results on the go.
 
 ## Requirements
 
-You need to have Python installed along with the following libraries:
+You need to have Python 3.8.x installed along with the libraries in `requirements.txt`
 
-- `google-api-python-client`
-- `google-auth-httplib2`
-- `google-auth-oauthlib`
-- `xgboost`
-- `librosa`
-- `noisereduce`
-- `pandas`
-- `numpy`
-- `matplotlib`
-- `seaborn`
-- `discord-webhook`
+These can be installed with the following command:
+
+`pip install -r requirements.txt`
 
 For any questions or issues, please open a GitHub issue or reach out via email.
