@@ -1,0 +1,6 @@
+data/
+old/
+plots/
+__pycache__/
+*.json
+config.py
